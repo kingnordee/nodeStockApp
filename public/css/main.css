@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkslategrey;
+}
+
+#mainNav{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    width: 100vw;
+    background-color: darkslateblue;
+}
+
+.menuDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /*background-color: red;*/
+    padding: 0 200px 0 200px;
+    list-style-type: none;
+
+    font-size: 1.2rem;
+}
+
+.menuDiv a{
+    color: darkcyan;
+    text-underline: none;
+}
+
+form{
+    display: flex;
+    height: 2rem;
+}
+form *{
+    padding: 5px;
+    margin: 1px;
+}
+
+
