@@ -7,18 +7,22 @@ BASICALLY HOLDS THE HEADER AND FOOTER AND THE SPOT FOR BODIES-->
     <title>King Nordee</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<nav id="mainNav">
-    <div class="menuDiv">
-        <a href="/">Home</a>
-        <a href="about">About</a>
-        <a href="contact">Contact</a>
-        <form action="#">
-            <input name="searchInput" type="text" class="search" placeholder="Enter a ticker code">
-            <button class="submitSearch">Search</button>
-        </form>
-    </div>
-</nav>
+
 <body>
-    {{{body}}}
+    <nav id="mainNav">
+        <div class="menuDiv">
+            <a href="/">Home</a>
+            <a href="about">About</a>
+            <a href="contact">Contact</a>
+            <form action="/" method="POST">
+                <input name="tickerInput" type="text" class="search" placeholder="Enter a ticker code">
+                <button class="submitSearch">Search</button>
+            </form>
+        </div>
+    </nav>
+    <main id="con">
+        {{{body}}}
+    </main>
+
 </body>
 </html>

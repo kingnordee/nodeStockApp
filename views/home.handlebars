@@ -1,1 +1,22 @@
-<h1>This my home.handlebar HomePage</h1>
+<link rel="stylesheet" href="/css/home.css">
+
+<div id="homeContainer">
+    <h1>{{stock.companyName}} ({{stock.symbol}})</h1> <br>
+    <strong>Primary Exchange: </strong>{{stock.primaryExchange}} <br>
+    <strong>Previous Close: </strong>{{stock.previousClose}} <br>
+    <strong>Market Cap: </strong>{{stock.marketCap}} <br>
+    <strong>Week-52 High: </strong>{{stock.week52High}} <br>
+    <strong>Week-52 Low: </strong>{{stock.week52Low}} <br>
+    <strong>YTD Change: </strong>{{stock.ytdChange}} <br>
+    <strong>US Market Open?: </strong>{{stock.isUSMarketOpen}} <br>
+</div>
+
+
+
+
+
+<!--{{#each stock}}-->
+<!--    {{@key}} | {{this}} <br>-->
+<!--{{/each}}-->
+
+<script src="/js/home.js"></script>

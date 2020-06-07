@@ -7,6 +7,10 @@ body{
     background-color: darkslategrey;
 }
 
+#con{
+    padding: 50px;
+}
+
 #mainNav{
     display: flex;
     flex-direction: row;
